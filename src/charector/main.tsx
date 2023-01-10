@@ -34,7 +34,7 @@ export const Main = ({ charectorImg }: any) => {
     setFacing((prev) => ({ current: direction, previous: prev.current }))
     if (direction === 64) {
       setPosition((prev) => ({
-        l: prev.l + 1,
+        l: prev.l + 6,
         r: prev.r,
         t: prev.t,
         d: prev.d,
@@ -43,13 +43,13 @@ export const Main = ({ charectorImg }: any) => {
       setPosition((prev) => ({
         l: prev.l,
         r: prev.r,
-        t: prev.t + 1,
+        t: prev.t + 6,
         d: prev.d,
       }))
     } else if (direction === 32) {
       setPosition((prev) => ({
-        l: prev.l - 1,
-        r: prev.r + 1,
+        l: prev.l - 6,
+        r: prev.r + 6,
         t: prev.t,
         d: prev.d,
       }))
@@ -57,8 +57,8 @@ export const Main = ({ charectorImg }: any) => {
       setPosition((prev) => ({
         l: prev.l,
         r: prev.r,
-        t: prev.t - 1,
-        d: prev.d + 1,
+        t: prev.t - 6,
+        d: prev.d + 6,
       }))
     }
   })
