@@ -58,7 +58,6 @@ export const Main = () => {
               <Mui.MenuItem
                 key={index}
                 value={item.name}
-                // onClick={() => setCharectorImg(item?.img)}
               >
                 {item.name}
               </Mui.MenuItem>
