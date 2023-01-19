@@ -6,9 +6,10 @@ export const Main = () => {
       style={{
         position: 'relative',
         height: '384px',
-        width: '384px',
-        margin: '10px auto',
-        background: 'grey',
+        top: '10px',
+        left: '10px',
+        // width: '384px',
+        // margin: '10px auto',
       }}
     >
       <SRC2.Map.Main />

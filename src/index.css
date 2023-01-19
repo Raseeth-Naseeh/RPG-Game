@@ -1,6 +1,11 @@
+/* #root {
+  background-color: black;
+  height: 90vh;
+} */
+
 .map {
   /* background-color:cadetblue; */
-  width: 384px;
+  width: 1050px;
   height: 384px;
   border: 2px solid grey;
   position: relative;
@@ -19,7 +24,7 @@
 .tile {
   height: 32px;
   width: 32px !important;
-
+  background-color: #e4e4e6;
 }
 
 .row {
@@ -27,18 +32,31 @@
   display: flex;
 }
 
-.grass {
-  background-color: green
+.ground {
+  background-image: url('./assets/tile.png');
+
 }
 
-.tree {
-  background-image: url('./assets/c.png');
+.leftChair {
+  background-image: url('./assets/chair.png');
   background-position: initial;
   background-repeat: round;
 }
 
-.rock {
-  background-image: url('./assets/rock.jpeg');
+.rightChair {
+  background-image: url('./assets/chair2.png');
+  background-position: initial;
+  background-repeat: round;
+}
+
+.fridge {
+  background-image: url('./assets/fridge.png');
+  background-position: initial;
+  background-repeat: round;
+}
+
+.iceCream {
+  background-image: url('./assets/Ice_Cream_Shop_Singles_48x48_2.png');
   background-position: initial;
   background-repeat: round;
 }
