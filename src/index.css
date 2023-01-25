@@ -5,8 +5,8 @@
 
 .map {
   /* background-color:cadetblue; */
-  width: 1050px;
-  height: 384px;
+  width: 352px;
+  height: 352px;
   border: 2px solid grey;
   position: relative;
   top: 0;
@@ -25,6 +25,17 @@
   height: 32px;
   width: 32px !important;
   background-color: #e4e4e6;
+  background-position: initial;
+  background-repeat: round;
+}
+
+.mapdiv {
+  background: url(/src/assets/Profile-1.png);
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .row {
@@ -37,10 +48,121 @@
 
 }
 
-.leftChair {
-  background-image: url('./assets/chair.png');
+.blue {
+  background-color: rgb(64, 175, 234);
+  ;
+}
+
+.window {
+  background-image: url('./assets/24_Ice_Cream_Shop_Singles_48x48/Ice_Cream_Shop_Singles_48x48_12.png');
   background-position: initial;
   background-repeat: round;
+  background-color: rgb(64, 175, 234);
+  ;
+}
+
+.cupboard {
+  background-image: url('./assets/24_Ice_Cream_Shop_Singles_48x48/Ice_Cream_Shop_Singles_48x48_2.png');
+  background-position: initial;
+  background-repeat: round;
+  background-color: rgb(64, 175, 234);
+  ;
+}
+
+.singlechair {
+  background-image: url('./assets/24_Ice_Cream_Shop_Singles_48x48/Ice_Cream_Shop_Singles_48x48_77.png');
+
+}
+
+.heartdrawer {
+  background-image: url('./assets/24_Ice_Cream_Shop_Singles_48x48/Ice_Cream_Shop_Singles_48x48_74.png');
+  background-position: initial;
+  background-repeat: round;
+  background-color: rgb(64, 175, 234);
+  ;
+}
+
+.heartcupboard {
+  background-image: url('./assets/24_Ice_Cream_Shop_Singles_48x48/Grocery_Store_Singles_48x48_475.png');
+
+}
+
+.fridge {
+  background-image: url('./assets/24_Ice_Cream_Shop_Singles_48x48/Grocery_Store_Singles_48x48_256.png');
+  background-position: initial;
+  background-repeat: round;
+  background-color: rgb(64, 175, 234);
+  ;
+}
+
+.door1top {
+  background-image: url('./assets/24_Ice_Cream_Shop_Singles_48x48/Music_and_Sport_Singles_48x48_118.png');
+  background-color: rgb(64, 175, 234);
+
+}
+
+.hearttable1 {
+  background-image: url('./assets/24_Ice_Cream_Shop_Singles_48x48/Grocery_Store_Singles_48x48_472.png');
+
+}
+
+.greenpot {
+  background-image: url('./assets/24_Ice_Cream_Shop_Singles_48x48/Grocery_Store_Singles_48x48_450.png');
+
+}
+
+.door1 {
+  background-image: url('./assets/24_Ice_Cream_Shop_Singles_48x48/Music_and_Sport_Singles_48x48_118.png');
+
+}
+
+.door2 {
+  background-image: url('./assets/24_Ice_Cream_Shop_Singles_48x48/Music_and_Sport_Singles_48x48_119.png');
+
+}
+
+.hearttable2 {
+  background-image: url('./assets/24_Ice_Cream_Shop_Singles_48x48/Grocery_Store_Singles_48x48_473.png');
+
+}
+
+.browntable {
+  background-image: url('./assets/24_Ice_Cream_Shop_Singles_48x48/Grocery_Store_Singles_48x48_182.png');
+
+}
+
+.browntable2 {
+  background-image: url('./assets/24_Ice_Cream_Shop_Singles_48x48/Grocery_Store_Singles_48x48_183.png');
+}
+
+.window2 {
+  background-color: rgb(64, 175, 234);
+  background-image: url('./assets/24_Ice_Cream_Shop_Singles_48x48/Ice_Cream_Shop_Singles_48x48_15.png');
+}
+
+.table {
+  background-image: url('./assets/24_Ice_Cream_Shop_Singles_48x48/Ice_Cream_Shop_Singles_48x48_75.png');
+
+}
+
+.table1 {
+  background-image: url('./assets/asset-v1/Ice_Cream_Shop_Singles_48x48_57.png');
+
+}
+
+.table2 {
+  background-image: url('./assets/asset-v1/Ice_Cream_Shop_Singles_48x48_65.png');
+
+}
+
+.leftchair {
+  background-image: url('./assets/24_Ice_Cream_Shop_Singles_48x48/Ice_Cream_Shop_Singles_48x48_78.png');
+
+}
+
+.rightchair {
+  background-image: url('./assets/24_Ice_Cream_Shop_Singles_48x48/Ice_Cream_Shop_Singles_48x48_79.png');
+
 }
 
 .rightChair {
@@ -49,14 +171,8 @@
   background-repeat: round;
 }
 
-.fridge {
-  background-image: url('./assets/fridge.png');
-  background-position: initial;
-  background-repeat: round;
-}
 
-.iceCream {
-  background-image: url('./assets/Ice_Cream_Shop_Singles_48x48_2.png');
-  background-position: initial;
-  background-repeat: round;
+.icecream {
+  background-image: url('./assets/24_Ice_Cream_Shop_Singles_48x48//Ice_Cream_Shop_Singles_48x48_101.png');
+
 }

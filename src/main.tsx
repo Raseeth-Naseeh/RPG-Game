@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-// import * as Game from 'src/game'
+// import * as Game from 'src/src3/game'
 import * as Game from 'src/src2/game'
 import * as Context from 'src/src2/context'
 

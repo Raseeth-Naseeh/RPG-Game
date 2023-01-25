@@ -13,7 +13,7 @@ const Directions = {
   UP: SIZE * 3,
 }
 const Map_Height = Constant.HEIGHT
-const Map_Width = 1056
+const Map_Width = Constant.WIDTH
 console.log(Constant.HEIGHT)
 export const Main = ({ charectorImg }: any) => {
   const { position, setPosition, Tiles } = React.useContext(Context.DataContext)
